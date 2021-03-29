@@ -14,12 +14,12 @@ options.add_argument('--test-type')
 options.add_argument("--headless")
 #options.binary_location = "/usr/lib/chromium-browser/chromedriver"
 options.binary_location = "/usr/bin/chromium-browser"
-
 # Create driver
 driver = webdriver.Chrome(options=options)
 
 # Open a website
-#driver.get('https://www.instagram.com')
 driver.get('http://example.com/')
 print(driver.page_source.encode("utf-8"))
 driver.quit()
+
+testvar2 = 0

@@ -349,8 +349,8 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
-=======
-.vscode
+
+# stuff i added
+.vscode/
 venv*
 
->>>>>>> c68cc8b... Created basic driver, performs basic GET
